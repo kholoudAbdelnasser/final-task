@@ -1,0 +1,71 @@
+.bg-black {
+	background-color: #000;
+}
+
+.text-hotpink{
+	color: #CD8383 ;
+}
+
+.sm {
+	width: 40px;
+	height: 40px;
+	
+}
+
+.discount {
+	background-color: rgba(0,0,0,0.4);
+	left: 15px;
+	top:15px;
+}
+
+#sec-1 {
+	background-image: url("../images/banner.jpg");
+	background-position: -640px center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#sec-1 nav img {
+	width: 40px;
+}
+
+#sec-1 nav a.text-warning {
+	font-variant: small-caps;
+}
+
+#sec-8 {
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+		url("../images/contactus.jpg") no-repeat center center;
+	border-bottom: 10px solid #FEC905;
+}
+#sec-8 form {
+	box-shadow: 0 0 10px 1px #FEC905;
+	border-radius: 8px;
+}
+#sec-9 img {
+	width: 50px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	
+}
+#sec-9 input[type="text"]{
+	border-style: none;
+	color: #fff;
+	border-bottom: thin solid #999;
+	outline-style: none !important;
+}
+
+@media (min-width: 576px) {  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#sec-1 {
+		background-position: center center;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+}
